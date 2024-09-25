@@ -1,0 +1,23 @@
+package br.com.aula002;
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+        Scanner tec = new Scanner(System.in);
+     String valor1;
+     String valor2;
+     int valor3;
+        //syso + ctrl + space
+        
+        System.out.println("Insira o nome do comprador");
+ valor1 = tec.nextLine();
+ System.out.println("Qual foi o produto adiquirido");
+ valor2 = tec.nextLine();
+ System.out.println("Qual foi a quantidade?");
+ valor3 = tec.nextInt();
+ int valor4 = valor3 * 8;
+ System.out.println("Olá " + valor1 + ", O produto adiquirido foi: " + valor2 + ", a quantidade foi: " + valor3 + ", o preço unitario é de 8 reais" + ", o valor total é de: " + valor4);
+ 
+ 
+}
+}
