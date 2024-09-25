@@ -1,0 +1,13 @@
+package br.com.aula002;
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+        Scanner tec = new Scanner(System.in);
+ int valor1;
+		 System.out.println("Insira o valor de seu salário");
+ valor1 = tec.nextInt();
+ double valor2 = (valor1/0.01) + valor1;
+ System.out.println("O valor do seu salário com reajuste é: "+ valor2);
+}
+}
