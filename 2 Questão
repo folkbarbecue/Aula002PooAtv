@@ -1,0 +1,25 @@
+package br.com.aula002;
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+        Scanner tec = new Scanner(System.in);
+ int valor1 = 8;
+ int valor2 = 9;
+ int valor3 = 7;
+ 
+ int valor4 = 4;
+ int valor5 = 5;
+ int valor6 = 6;
+ 
+ int med1 = (valor1+valor2+valor3)/3;
+ int med2 = (valor4+valor5+valor6)/3;
+ 
+ int media = (med1 + med2)/2;
+ 
+ System.out.println("A media dos valores 8 9 e 7 é: " + med1);
+ System.out.println("A media dos valores 4 5 e 6 é: " + med2);
+ System.out.println("A media das medias é: " + media);
+		 
+}
+}
