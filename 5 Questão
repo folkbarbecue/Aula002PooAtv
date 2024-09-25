@@ -1,0 +1,16 @@
+package br.com.aula002;
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+        Scanner tec = new Scanner(System.in);
+ int valor1;
+ int valor2;
+		 System.out.println("Insira a quantidade minima de uma peça");
+		 valor1 = tec.nextInt();
+		 System.out.println("Insira a quantidade máxima de uma peça");
+		 valor2 = tec.nextInt();
+int valor3 = (valor1+valor2)/2;
+System.out.println("O valor do estoque medio de uma peça é: "+ valor3);
+}
+}
